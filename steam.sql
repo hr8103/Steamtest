@@ -11,7 +11,7 @@
  Target Server Version : 80044 (8.0.44)
  File Encoding         : 65001
 
- Date: 24/12/2025 23:47:02
+ Date: 27/12/2025 20:43:57
 */
 
 SET NAMES utf8mb4;
@@ -41,7 +41,7 @@ CREATE TABLE `game_info`  (
   `metacritic_url` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT 'Metacritic链接',
   `steam_id` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '原版AppID(用于生成社区链接)',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of game_info
@@ -100,6 +100,46 @@ INSERT INTO `game_info` VALUES (51, 'NBA 2K26', 27.99, 'https://shared.akamai.st
 INSERT INTO `game_info` VALUES (52, '《暗黑破坏神® IV》', 29.99, 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg?t=1766192109', 'Blizzard Entertainment, Inc.', '2023 年 10 月 17 日', '进入《暗黑破坏神® IV》的世界，在捍卫庇护之地的战斗中，开启前所未有的动作 RPG 冒险。亲身体验备受赞誉的游戏剧情和全新赛季内容。', '[\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/11d4a9be127719b22681d823b83b0c6b4798bf1f/ss_11d4a9be127719b22681d823b83b0c6b4798bf1f.1920x1080.jpg?t=1766192109\", \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ee4b4e1ba9c8a07f40aff563c7c43fd04477d60c/ss_ee4b4e1ba9c8a07f40aff563c7c43fd04477d60c.1920x1080.jpg?t=1766192109\", \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/7905f91c07b2cb828d0036389bc783300350fb74/ss_7905f91c07b2cb828d0036389bc783300350fb74.1920x1080.jpg?t=1766192109\", \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/73d3413a15dcde01592a1e8e3c998ec128ef9676/ss_73d3413a15dcde01592a1e8e3c998ec128ef9676.1920x1080.jpg?t=1766192109\", \"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/14880a1527241507d9a2d26f439f83fac20c4246/ss_14880a1527241507d9a2d26f439f83fac20c4246.1920x1080.jpg?t=1766192109\"]', '<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/extras/98c93b5d83e64a62b2e8949a7de8ea54.avif?t=1766192109\" width=616 height=352 /></span></p><p class=\"bb_paragraph\" >作为一款卓越的动作角色扮演游戏，Diablo® IV 能为你带来无与伦比的游戏体验——无穷无尽的恶魔等你屠戮，数不胜数的技能待你掌握，还有梦魇重重的地下城和传奇战利品供你探索与发掘。独自或与好友一同踏上战役征程，在壮美而又暗黑的世界中结交令人难忘的角色，体验扣人心弦的故事；在广阔的终极游戏中自由探索：对战经典首领获取丰厚的战利品；击退地狱狂潮中不断逼近的恶魔攻势；或者成为锻造大师，打造终极武器，培养强大角色。所有可用平台游戏互通、进度共享。 </p><h2 class=\"bb_tag\" >欢迎来到地狱</h2><p class=\"bb_paragraph\" >《暗黑破坏神》系列堪称动作角色扮演游戏的一座不朽丰碑，广受全球玩家赞誉。赶快进入本系列的最新力作，开始你的冒险吧。随着天堂和地狱之间的战争愈演愈烈，仇恨吞噬了庇护之地。邪恶开始蔓延，邪教徒和恶魔的膜拜者又开始兴风作浪，企图迎接莉莉丝的到来。只有少数勇敢者才有胆量面对这种威胁--他们誓要一扫这吞噬万物的黑暗，为庇护之地带来光明。 </p><h2 class=\"bb_tag\" >广阔的开放世界</h2><p class=\"bb_paragraph\" >在庇护之地的腐败土地上开辟出一条属于自己的道路。请记住，这里是一个不断变化的、可以完全探索的世界，充满了挑战、任务、敌人，当然也有丰厚的战利品。你可以和冒险者同伴并肩战斗，拯救被围困的城镇，也可以深入梦魇般的地下城，在抗击邪恶的过程中逐步揭开失落已久的秘密。另外，庇护之地上不仅拥有大量可供探索的区域，还有像世界首领和地狱狂潮这样的极端危险区域，会按照一定的时间周期出现在不同的地方。可以说，危险无处不在。 </p><h2 class=\"bb_tag\" >沉浸式的角色养成</h2><p class=\"bb_paragraph\" >创建并自定义你的角色，化身为游戏中的勇者，直面不断逼近的黑暗。在五个职业中做出选择，用技能、能力和美化道具打造专属于你的英雄，彰显独一无二的个人风格。在强大的技能树上不断投入，增强自身的实力，并利用巅峰面板开发出更为独特的终局游戏专长，构建独树一帜的玩法流派。 </p><h2 class=\"bb_tag\" >传奇装备，史诗战斗</h2><p class=\"bb_paragraph\" >发现并利用数量庞大的强力武器、盔甲等装备，与威胁庇护之地的恶魔展开厮杀。探索独特的装备组合，舍生忘死地投入战斗；同时不断升级物品，收集海量的强大道具，在对抗最致命的敌人时也能游刃有余。 </p><h2 class=\"bb_tag\" >赛季与事件</h2><p class=\"bb_paragraph\" >庇护之地的故事仍在继续。创建赛季角色，投身新的冒险。掌握全新机制，在每个新赛季中面临前所未有的威胁。完成赛季旅程的艰难挑战并斩获新的战令奖励。此外，当限时事件降临庇护之地时，也别忘了磨砺宝剑，共襄盛举。 </p><h2 class=\"bb_tag\" >终局游戏的无尽追求</h2><p class=\"bb_paragraph\" >在等级提高之后，你将踏足更为恐怖的世界层级，探索《暗黑破坏神® IV》更多精彩内容，迎接前所未有的巨大挑战。你可以深入魔渊，挑战最为强大的恶魔；可以勇闯难关，击败超级首领，斩获超级暗金奖励；可以趁地狱狂潮出现之际，在庇护之地各处抗击蜂拥而至的地狱大军；可以消灭世界首领，书写自己的传奇；也可以成为锻造大师，打造出登峰造极的武器，为你的英雄提供助力。</p>', '动作,角色扮演', 1, '单人,多人,玩家对战,线上玩家对战,合作,在线合作,跨平台多人,Steam 成就,完全支持控制器,应用内购买,可调整文字大小,视角舒适度,可选颜色,可调整难度,可以仅用键盘,可以仅用鼠标,朗读游戏菜单,无需应对快速反应事件,随时保存,立体声,字幕选项', '英语<strong>*</strong>, 法语<strong>*</strong>, 意大利语<strong>*</strong>, 德语<strong>*</strong>, 西班牙语 - 西班牙<strong>*</strong>, 日语<strong>*</strong>, 韩语<strong>*</strong>, 波兰语<strong>*</strong>, 葡萄牙语 - 巴西<strong>*</strong>, 俄语<strong>*</strong>, 西班牙语 - 拉丁美洲<strong>*</strong>, 繁体中文<strong>*</strong>, 简体中文<strong>*</strong>, 土耳其语<br><strong>*</strong>具有完全音频支持的语言', '*必须先在游戏中解锁坐骑或宠物功能（如适用），才能使用相应物品。<br />\r<br><br />\r<br>升级版本后，无法获得帐户中已解锁的游戏内物品。<br />\r<br><br />\r<br>需要《暗黑破坏神® IV》主游戏才能游玩。需要战网®通行证。需要互联网连接。<br />\r<br><br />\r<br>如需了解更多信息，请访问 Diablo.com。<br />\r<br><br />\r<br>© 2024 暴雪娱乐有限公司。暗黑破坏神、暗黑破坏神：不朽和 Blizzard Entertainment 是暴雪娱乐有限公司在美国和/或其他国家的商标或注册商标。', 'https://diablo4.blizzard.com/', 0, '', '2344520');
 
 -- ----------------------------
+-- Table structure for sys_order
+-- ----------------------------
+DROP TABLE IF EXISTS `sys_order`;
+CREATE TABLE `sys_order`  (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `user_id` bigint NOT NULL COMMENT '用户ID',
+  `order_no` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '商户订单号',
+  `paypal_order_id` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT 'PayPal交易号',
+  `total_amount` decimal(10, 2) NOT NULL COMMENT '订单总金额',
+  `currency` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT 'USD',
+  `status` int NULL DEFAULT 0 COMMENT '0-待支付, 1-已支付, 2-已取消',
+  `create_time` datetime NULL DEFAULT CURRENT_TIMESTAMP,
+  `update_time` datetime NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `uk_order_no`(`order_no` ASC) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 25 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '订单主表' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of sys_order
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for sys_order_item
+-- ----------------------------
+DROP TABLE IF EXISTS `sys_order_item`;
+CREATE TABLE `sys_order_item`  (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `order_id` bigint NOT NULL COMMENT '关联主订单ID',
+  `game_id` bigint NOT NULL COMMENT '游戏ID',
+  `game_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '快照：游戏名',
+  `price` decimal(10, 2) NOT NULL COMMENT '快照：购买时单价',
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `idx_order_id`(`order_id` ASC) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 40 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '订单明细表' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of sys_order_item
+-- ----------------------------
+
+-- ----------------------------
 -- Table structure for sys_user
 -- ----------------------------
 DROP TABLE IF EXISTS `sys_user`;
@@ -114,13 +154,14 @@ CREATE TABLE `sys_user`  (
   `create_time` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `uk_username`(`username` ASC) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '用户表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
 INSERT INTO `sys_user` VALUES (1, 'admin', '123456', '超级管理员', NULL, 'admin@steam.com', 1, '2025-12-24 22:17:58');
 INSERT INTO `sys_user` VALUES (2, 'player1', '123456', '头号玩家', NULL, 'player@steam.com', 0, '2025-12-24 22:17:58');
+INSERT INTO `sys_user` VALUES (3, 'player2', '123456', '超级大佬', NULL, 'palkshh@sdh.com', 0, '2025-12-27 15:49:49');
 
 -- ----------------------------
 -- Table structure for user_order
@@ -135,7 +176,7 @@ CREATE TABLE `user_order`  (
   `status` int NULL DEFAULT 0 COMMENT '状态: 0-未支付, 1-已支付',
   `create_time` datetime NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '订单表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '订单表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of user_order
