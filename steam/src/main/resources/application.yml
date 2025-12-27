@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Steam?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 20041217
+
+# MyBatis-Plus 配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 在控制台打印 SQL，方便调试
+  global-config:
+    db-config:
+      id-type: auto # 主键自增
+
+paypal:
+  mode: sandbox # 上线改为 live
+  client-id: AZTSz_AKc_hjEy4EEUQ6f4MCq2mAjoLG9aPA-FByqThKGWdP-bAXhu16uNCAgho_ejKQO2iYYxkiZ4fN
+  client-secret: EG3dX9JMpXy21dFJBdKsW4UvZDnxo_0THveffxofpGfwMt3K3lnOLtOciHDe7CEqFbmtbJnDMQ-oa6TG
+  # 支付成功/取消后的前端回调路由
+  return-url: http://localhost:5173/payment/success
+  cancel-url: http://localhost:5173/game
